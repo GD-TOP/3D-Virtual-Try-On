@@ -15,4 +15,4 @@
      - 기존의 의류 데이터셋과 달리 높은 resolution의 이미지로 구성됨
    - 데이터셋 구성
      - Image resolution: 1024x768
-     - Preprocessed dataset: Dropbox(https://www.dropbox.com/s/10bfat0kg4si1bu/zalando-hd-resized.zip?dl=0)![image](https://github.com/user-attachments/assets/570f274e-93e6-4838-b437-1496235d20da)
+     - Preprocessed dataset: [Dropbox](https://github.com/user-attachments/assets/570f274e-93e6-4838-b437-1496235d20da)
