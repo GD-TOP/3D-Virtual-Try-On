@@ -25,5 +25,5 @@
   
 2. MV-VTON
    - 데이터셋 샘플  
-     <img width="324" alt="image" src="https://github.com/user-attachments/assets/762e2ade-9053-4e34-a918-715e7da1b23b" />
+     <img width="480" alt="image" src="https://github.com/user-attachments/assets/762e2ade-9053-4e34-a918-715e7da1b23b" />
 
