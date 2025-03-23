@@ -33,3 +33,27 @@
      - 데이터셋 폴더 구성
        <img width="391" alt="스크린샷 2025-03-23 16 18 48" src="https://github.com/user-attachments/assets/c7355fba-0ef0-432c-8a36-27af3bfb40ae" />
      - 하나의 옷에 대한 앞면 이미지, 뒷면 이미지를 하나의 pair로 제공함
+   - 출처
+     - Github: [https://github.com/hywang2002/MV-VTON](https://github.com/hywang2002/MV-VTON)
+     - Paper: [https://arxiv.org/pdf/2404.17364](https://arxiv.org/pdf/2404.17364)
+    
+3. Dresscode  
+   - 데이터셋 샘플  
+     <img width="311" alt="image" src="https://github.com/user-attachments/assets/3cdee2df-e463-4863-bf5e-e245d0d86d8b" />
+   - 데이터셋 설명
+     - 옷과 해당 옷을 입고 있는 사람의 포즈, 세그멘테이션 등 추가적인 정보를 함께 제공하는 데이터셋
+   - 데이터셋 구성
+     - Image resolution: 1024x768
+     - 107,584 images
+     - Additional Informations
+       - Keypoints
+       - Skeletons
+       - Human label maps
+       - Human dense poses
+      - Categories
+        - upper body
+        - lower body
+        - dresses
+    - 출처
+      - Github: [https://github.com/aimagelab/dress-code](https://github.com/aimagelab/dress-code)
+      - Paper: [https://arxiv.org/pdf/2204.08532](https://arxiv.org/pdf/2204.08532)
