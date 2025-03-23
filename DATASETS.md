@@ -7,7 +7,7 @@
 
 ##### 수집된 데이터셋  
 1. VITON-HD
-   - 데이터셋 샘플
+   - 데이터셋 샘플  
      <img width="47" alt="image" src="https://github.com/user-attachments/assets/32aca383-b60a-410d-89a1-73d59ede409d" />
    - 데이터셋 설명
      - 많은 Virtual Try ON 프로젝트에서 사용하고 있는 데이터셋
@@ -24,6 +24,6 @@
      - Paper: [https://arxiv.org/pdf/2103.16874](https://arxiv.org/pdf/2103.16874)
   
 2. MV-VTON
-   - 데이터셋 샘플
+   - 데이터셋 샘플  
      <img width="324" alt="image" src="https://github.com/user-attachments/assets/762e2ade-9053-4e34-a918-715e7da1b23b" />
 
