@@ -30,6 +30,6 @@
      - Multi View Virtual Try ON에서 사용된 데이터셋
      - 데이터셋 신청서를 작성하여 메일을 통해 컨택해야 함
    - 데이터셋 구성  
-     - 데이터셋 폴더 구성  
-   	 <img width="391" alt="스크린샷 2025-03-23 16 18 48" src="https://github.com/user-attachments/assets/c7355fba-0ef0-432c-8a36-27af3bfb40ae" />  
+     - 데이터셋 폴더 구성
+       <img width="391" alt="스크린샷 2025-03-23 16 18 48" src="https://github.com/user-attachments/assets/c7355fba-0ef0-432c-8a36-27af3bfb40ae" />
      - 하나의 옷에 대한 앞면 이미지, 뒷면 이미지를 하나의 pair로 제공함
