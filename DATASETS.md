@@ -15,4 +15,12 @@
      - 기존의 의류 데이터셋과 달리 높은 resolution의 이미지로 구성됨
    - 데이터셋 구성
      - Image resolution: 1024x768
-     - Preprocessed dataset: [Dropbox](https://github.com/user-attachments/assets/570f274e-93e6-4838-b437-1496235d20da)
+     - Preprocessed dataset: [Dropbox](https://www.dropbox.com/s/10bfat0kg4si1bu/zalando-hd-resized.zip?dl=0)
+     - Train Set: 11,647 pairs
+     - Test Set: 2,032 pairs
+     - 현재는 드랍박스 파일이 삭제된 것으로 확인됨
+   - 출처
+     - Github: [https://github.com/shadow2496/VITON-HD](https://github.com/shadow2496/VITON-HD)
+     - Paper: [https://arxiv.org/pdf/2103.16874](https://arxiv.org/pdf/2103.16874)
+  
+2. 
