@@ -4,6 +4,7 @@
 ##### 수집 요구 사항  
 - Multi-View 에서 촬영된 의류, 혹은 신발에 대한 데이터셋  
 - 이미지로 구성되어 있어야 함
+- 필요 데이터셋 주요 특징 : 다시점 이미지 및 3D 정보 포함 여부
 
 ##### 수집된 데이터셋  
 1. VITON-HD
@@ -57,3 +58,40 @@
     - 출처
       - Github: [https://github.com/aimagelab/dress-code](https://github.com/aimagelab/dress-code)
       - Paper: [https://arxiv.org/pdf/2204.08532](https://arxiv.org/pdf/2204.08532)
+4. Deep Fashion3D v2
+   - colored point cloud model 사용 가능
+   - 실제 의류의 3D scan 및 다시점 이미지 포함
+   - Data Organization (Garment mesh)
+   deepFashion3DV2/filtered_registered_mesh
+   |-- 1-1
+   |   |-- 1-1_tex.png  
+   |   |-- model_cleaned.obj 
+   |   |-- model_cleaned.obj.mtl
+   |
+   |-- 2-2
+         |-- 2-2_tex.png  
+         |-- model_cleaned.obj
+         |-- model_cleaned.obj.mtl
+   - 파일 압축 해제를 위한 비밀번호 form 작성 필요
+   - github [https://github.com/GAP-LAB-CUHK-SZ/deepFashion3D?tab=readme-ov-file](https://github.com/GAP-LAB-CUHK-SZ/deepFashion3D?tab=readme-ov-file)
+   - release note [https://kv2000.github.io/2023/06/20/deepFashion3DV2/](https://kv2000.github.io/2023/06/20/deepFashion3DV2/)\
+
+6. Stanford Online products dataset
+   - 다시점에서 촬영된 상품 이미지 (특히, 신발)
+   - 신발 종류 (Nike, Adidas 등) 다양하게 포함
+   - dataset homepage [https://cvgl.stanford.edu/projects/lifted_struct/](https://cvgl.stanford.edu/projects/lifted_struct/)
+   - dataset down link [https://drive.google.com/drive/folders/1tahHkWJsRyXlfOiH9OZEAeI4aYzqpzA5](https://drive.google.com/drive/folders/1tahHkWJsRyXlfOiH9OZEAeI4aYzqpzA5)
+
+8. MVImgNet
+   - 다양한 3D object 이미지 데이터 중 category 156번 shoe
+   - folder structure
+     |-- ROOT
+         |-- class_label
+            |-- instance_id
+               |-- images
+               |-- sparse/0
+                  |-- cameras.bin   # COLMAP reconstructed cameras
+                  |-- images.bin    # binary data of input images
+                  |-- points3D.bin  # COLMAP reconstructed sparse point cloud (not dense)
+   - github [https://github.com/GAP-LAB-CUHK-SZ/MVImgNet?tab=readme-ov-file](https://github.com/GAP-LAB-CUHK-SZ/MVImgNet?tab=readme-ov-file)
+   - dataset download [https://github.com/GAP-LAB-CUHK-SZ/MVImgNet/blob/main/download_tool.py](https://github.com/GAP-LAB-CUHK-SZ/MVImgNet/blob/main/download_tool.py)
