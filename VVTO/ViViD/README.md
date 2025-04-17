@@ -18,8 +18,8 @@ cd ViViD
 
 ### Environment
 ```
-conda create -n vivid python=3.10
-conda activate vivid
+python3 -m venv vivid
+source vivid/bin/activate
 pip install -r requirements.txt  
 ```
 
