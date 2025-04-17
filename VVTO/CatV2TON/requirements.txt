@@ -1,0 +1,14 @@
+opencv-python
+torch
+torchvision
+huggingface_hub
+diffusers
+transformers
+fvcore
+av
+cloudpickle
+omegaconf
+pycocotools
+scipy
+accelerate
+einops
